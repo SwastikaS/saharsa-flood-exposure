@@ -1,11 +1,11 @@
 # Saharsa agricultural-land exposure
 
-Working draft for GeoMapathon 2026. This project intersects official NRSC mapped inundation from 4 September 2026 with NRSC 2024–25 land cover and Survey of India administrative boundaries.
+Working draft. This project intersects official NRSC mapped inundation from 4 September 2026 with NRSC 2024–25 land cover and Survey of India administrative boundaries.
 
 It is an exposure overlay, not an independently validated flood-detection model or crop-damage estimate. The current estimate is 50.70 km² of historical cropland intersecting mapped inundation. Mahishi has the largest overlap; Nauhatta the highest percentage of mapped baseline cropland.
 
 ## Status
-Preliminary analysis with source-scale, temporal and spatial uncertainty. Independent validation and sensitivity analysis remain outstanding. Not a final competition submission.
+Preliminary analysis with source-scale, temporal and spatial uncertainty. Independent validation and sensitivity analysis remain outstanding. 
 
 ## Reproduce locally
 Use Python with the packages in requirements.txt. Obtain the source data under their applicable terms. Place the LULC ZIP as inputs/lulc_request.zip and the prepared administrative/inundation GeoPackage as inputs/September4_administrative_exposure.gpkg. The latter must contain saharsa_villages, saharsa_blocks and saharsa_mapped_inundation in EPSG:32645; it is a required preprocessing artifact, not bundled here.
